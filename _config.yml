@@ -1,4 +1,3 @@
-theme: jekyll-theme-hacker
 name: Benjamin Hamlin
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
