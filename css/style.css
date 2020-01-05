@@ -1,5 +1,6 @@
 ul.navigation {
   list-style-type: none;
+  list-style: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -8,6 +9,7 @@ ul.navigation {
 li.navigation {
   float: left;
   list-style-type: none;
+  list-style: none;
 }
 
 li a.navigation {
@@ -16,6 +18,8 @@ li a.navigation {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  list-style-type: none;
+  list-style: none;
 }
 
 /* Change the link color to #111 (black) on hover */
