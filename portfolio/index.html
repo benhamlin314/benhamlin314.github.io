@@ -4,9 +4,17 @@ title: Portfolio
 ---
 <h1>{{ page.title }}</h1>
 <ul class="projects">
-
-  {% for project in site.projects %}
-    <li><span>{{ project.date | date_to_string }}</span> » <a href="{{ project.url }}" title="{{ project.title }}">{{ project.title }}</a></li>
-  {% endfor %}
-
+   <li><a href="benhamlin314.github.io/POSOS">POSOS</a></li>
+   <li><a href="benhamlin314.github.io/mynotepad">mynotepad</a></li>
+   <li><a href="https://github.com/benhamlin314/CrackingCoding">Cracking the Coding Interview problems</a></li>
+      <ul>
+         <li>Work In Progess</li>
+         <li>Goal to complete all coding problems in C, C++, C#, Java, and Python 3</li>
+      </ul>
+   <li><a href="https://github.com/benhamlin314/mymoviefinder">mymoviefinder</a></li>
+      <ul>
+         <li>Work In Progress</li>
+         <li>Simple database utilizing the imDb dataset</li>
+         <li>Filters owned moves based on multiple criteria</li>
+      </ul>
 </ul>
