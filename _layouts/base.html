@@ -6,19 +6,21 @@ layout: default
    <head>
       <meta charset="utf-8">
       <title>{{ page.title }}</title>
+      <link rel="stylesheet" type="text/css" href="css/style.css">
    </head>
    <body>
       <nav>
-         <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/blog">Blog</a></li>
+         <ul class="navigation">
+            <li class="navigation"><a class="navigation" href="/">Home</a></li>
+            <li class="navigation"><a class="navigation" href="/about">About</a></li>
+            <li class="navigation"><a class="navigation" href="/blog">Blog</a></li>
          </ul>
       </nav>
       <div class="container">
          {{ content }}
       </div>
       <footer>
+         <h3>Contact</h3>
          <ul>
             <li><a href="mailto:benhamlin@comcast.net">Email</a></li>
             <li><a href="https://github.com/benhamlin314">github.com/benhamlin314</a></li>
