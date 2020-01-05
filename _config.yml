@@ -2,3 +2,4 @@ name: Benjamin Hamlin
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 theme: jekyll-theme-hacker
+google_analytics: UA-155334640-1
