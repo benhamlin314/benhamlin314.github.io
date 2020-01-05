@@ -4,5 +4,5 @@ permalink: /blog/:year/:month/:day/:title
 theme: jekyll-theme-hacker
 google_analytics: UA-155334640-1
 include:
-   - /_projects/
+   - /projects/
    - /portfolio/
