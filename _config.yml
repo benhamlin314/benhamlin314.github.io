@@ -1,3 +1,5 @@
+title: www.hamlan.net
+description: A portfolio website with a personal blog describing my journey.
 name: Benjamin Hamlin
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
