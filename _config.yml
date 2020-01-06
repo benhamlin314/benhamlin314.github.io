@@ -1,9 +1,9 @@
 title: www.hamlan.net
-description: A portfolio website with a personal blog describing my journey.
+description: My portfolio website with a personal blog describing my journey.
 name: Benjamin Hamlin
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 theme: jekyll-theme-hacker
 google_analytics: UA-155334640-1
-include:
-   - /portfolio/
+paginate: 5
+paginate_path: "/blog/page:num"
