@@ -5,6 +5,7 @@ date: 2020-01-04
 ---
 
 I decided to create an online portfolio and blog to showcase what I have been working on as well as what I am doing.
+<!--more-->
 
 ## Since Graduating
 I have continued studying Python 3 creating projects such as [mynotepad](https://github.com/benhamlin314/mynotepad), [mymoviefinder](https://github.com/benhamlin314/mymoviefinder), and working on problems from Cracking the Coding Interview by Gayle McDowell in C, C++, Python 3, C#, and Java uploaded to [benhamlin314/CrackingCoding](https://github.com/benhamlin314/CrackingCoding)

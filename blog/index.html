@@ -9,7 +9,8 @@ title: Blog
     <span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
   </p>
   <div class="content">
-    {{ post.content }}
+    {{ post.excerpt }}
+    <h4><a href="{{ post.url }}">Read more...</a><h4>
   </div>
   <hr>
 {% endfor %}
