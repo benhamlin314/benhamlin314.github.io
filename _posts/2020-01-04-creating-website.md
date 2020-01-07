@@ -2,6 +2,7 @@
 layout: post
 title: "Benjamin Hamlin, Creating website and blog"
 date: 2020-01-04
+excerpt_separator: <!--more-->
 ---
 
 I decided to create an online portfolio and blog to showcase what I have been working on as well as what I am doing.
