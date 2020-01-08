@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Interview Preparation"
-date: 2020-01-08
+date: 2020-01-06
 excerpt_separator: <!--more-->
 ---
 
