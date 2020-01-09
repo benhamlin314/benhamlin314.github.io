@@ -1,8 +1,23 @@
 ---
-layout: base
+layout: home
 title: Home
 ---
-<div class="blurb">
-   <h1>Welcome to my website.</h1>
-   <p>Hello, I'm Ben Hamlin. Thank you for visiting my website/blog. I hope to update the blog regularly about events I attend and projects I work on. To learn a little more <a href="/about">about me...</a></p>
-</div>
+      <div class="blurb">
+         <h1>Welcome to my website.</h1>
+         <p>Hello, I'm Ben Hamlin. Thank you for visiting my website/blog. I hope to update the blog regularly about events I attend and projects I work on. To learn a little more <a href="/about">about me...</a></p>
+         <h1>Writing Prompt Generator</h1>
+         <p>Utilize the following form to create a writing or game development prompt:</p>
+         <form class="writing-generator" action="index.html" method="post">
+            <!--<fieldset>
+               <legend>Generator Input</legend>
+               <label for="noun">Noun with article: </label>
+               <input type="text" name="noun" placeholder="(Ex: &quot;a bat&quot;)"><br>
+               <button id="generate" type="button" name="generate">Generate</button>
+            </fieldset>-->
+            <fieldset>
+               <legend>Prompt</legend>
+               <p id="prompt"></p>
+               <button id="generate" type="button" name="generate">Generate new prompt</button>
+            </fieldset>
+         </form>
+      </div>
