@@ -42,28 +42,21 @@
         </section>
       </div>
     </header>
-
-    <nav>
-      <ul style="list-style:none;list-style-type:none;margin:0;padding:0;overflow:hidden;">
-          <li style="float:left;list-style:none;list-style-type:none;"><a style="display:block;text-align:center;padding:14px 16px;" href="/">Home</a></li>
-          <li style="float:left;list-style:none;list-style-type:none;"><a style="display:block;text-align:center;padding:14px 16px;" href="/about">About</a></li>
-          <li style="float:left;list-style:none;list-style-type:none;"><a style="display:block;text-align:center;padding:14px 16px;" href="/blog">Blog</a></li>
-          <li style="float:left;list-style:none;list-style-type:none;"><a style="display:block;text-align:center;padding:14px 16px;" href="/portfolio">Portfolio</a></li>
-      </ul>
-    </nav>
     <div class="container">
-      {{ content }}
+      <section>
+       <nav>
+         <ul style="list-style:none;list-style-type:none;margin:0;padding:0;overflow:hidden;">
+             <li style="float:left;list-style:none;list-style-type:none;"><a style="display:block;text-align:center;padding:14px 16px;" href="/">Home</a></li>
+             <li style="float:left;list-style:none;list-style-type:none;"><a style="display:block;text-align:center;padding:14px 16px;" href="/about">About</a></li>
+             <li style="float:left;list-style:none;list-style-type:none;"><a style="display:block;text-align:center;padding:14px 16px;" href="/blog">Blog</a></li>
+             <li style="float:left;list-style:none;list-style-type:none;"><a style="display:block;text-align:center;padding:14px 16px;" href="/portfolio">Portfolio</a></li>
+         </ul>
+       </nav>
+       <div class="container">
+         {{ content }}
+       </div>
+       </section>
     </div>
-    <footer>
-      <h3>Contact</h3>
-      <ul>
-          <li><a href="mailto:benhamlin@comcast.net">Email</a></li>
-          <li><a href="https://github.com/benhamlin314">github.com/benhamlin314</a></li>
-          <li><a href="https://www.linkedin.com/in/benjamin-hamlin-519089171/">LinkedIn</a></li>
-          <li><a href="https://leetcode.com/bhamlin/">LeetCode</a></li>
-      </ul>
-    </footer>
-
     {% if site.google_analytics %}
       <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
