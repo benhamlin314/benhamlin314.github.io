@@ -14,4 +14,4 @@ I am trying to think of a way to utilize JavaScript on my website but have not b
 I challenged myself to study and create a program a day for the next month. I was inspired after seeing a 3D artist create a daily render and post it for the last 12 years. The progress in the development of his craft has been incredible. I feel that taking the time to develop my own craft, programming. I also have an interest in 3D rendering and game development that I will start a weekly challenge to create 3D models to hone my craft and build a database of models to utilize in the future.
 
 ### Writing Prompt Generator
-I am attempting to create a writing prompt generator that will aid me in creating 3D models, ideas for programs to write, and game ideas. My plan is to write it in JavaScript and incorporate it in to this website.
+I am attempting to create a writing prompt generator that will aid me in creating 3D models, ideas for programs to write, and game ideas. My plan is to write it in JavaScript and incorporate it in to this website. More subjects and activities will be added in the future.
