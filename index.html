@@ -2,22 +2,23 @@
 layout: home
 title: Home
 ---
-      <div class="blurb">
-         <h1>Welcome to my website.</h1>
-         <p>Hello, I'm Ben Hamlin. Thank you for visiting my website/blog. I hope to update the blog regularly about events I attend and projects I work on. To learn a little more <a href="/about">about me...</a></p>
-         <h1>Writing Prompt Generator</h1>
-         <p>Utilize the following form to create a writing or game development prompt:</p>
-         <form class="writing-generator" action="index.html" method="post">
-            <!--<fieldset>
-               <legend>Generator Input</legend>
-               <label for="noun">Noun with article: </label>
-               <input type="text" name="noun" placeholder="(Ex: &quot;a bat&quot;)"><br>
-               <button id="generate" type="button" name="generate">Generate</button>
-            </fieldset>-->
-            <fieldset>
-               <legend>Prompt</legend>
-               <p id="prompt"></p>
-               <button id="generate" type="button" name="generate" onclick="gen()">Generate new prompt</button>
-            </fieldset>
-         </form>
-      </div>
+   <div class="blurb">
+      <h1>Welcome to my website.</h1>
+      <p>Hello, I'm Ben Hamlin. Thank you for visiting my website/blog. I hope to update the blog regularly about events I attend and projects I work on. To learn a little more <a href="/about">about me...</a></p>
+      <h1>Writing Prompt Generator</h1>
+      <p>Utilize the following form to create a writing or game development prompt:</p>
+      <form class="writing-generator" action="index.html" method="post">
+         <fieldset>
+            <legend>Generator Input</legend>
+            <label for="noun">Noun with article: </label>
+            <input id="add" type="text" name="noun" placeholder="(Ex: &quot;a bat&quot;)"><br>
+            <button type="button" name="add" onclick="addMeat()">Add</button>
+            <p><strong>WARNING:</strong> Adding to the generator is done locally and refreshing the page will clear all added content.</p>
+         </fieldset>
+         <fieldset>
+            <legend>Prompt</legend>
+            <p id="prompt"></p>
+            <button id="generate" type="button" name="generate" onclick="gen()">Generate new prompt</button>
+         </fieldset>
+      </form>
+   </div>
