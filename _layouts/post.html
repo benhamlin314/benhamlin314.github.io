@@ -2,7 +2,7 @@
 layout: base
 ---
 <h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date: '%B %d, %Y' }}{% if page.comments %}<a href="{{content.absolute_url}}#disqus_thread">Post a comment</a>{% endif %}</p>
+<p class="meta">{{ page.date | date: '%B %d, %Y' }}{% if page.comments %} <a href="{{content.absolute_url}}#disqus_thread">Post a comment</a>{% endif %}</p>
 <div class="post">
   {{ content }}
   {% if page.comments %}
