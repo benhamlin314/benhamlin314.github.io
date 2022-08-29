@@ -3,6 +3,7 @@ layout: post
 title: "Learning JavaScript"
 date: 2020-01-07
 excerpt_separator: <!--more-->
+comments: true
 ---
 
 ### JavaScript is a Simple Language

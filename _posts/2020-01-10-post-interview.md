@@ -3,6 +3,7 @@ layout: post
 title: "Post Interview"
 date: 2020-01-10
 excerpt_separator: <!--more-->
+comments: true
 ---
 
 ### My First Final Interview

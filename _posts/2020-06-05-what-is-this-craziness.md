@@ -3,6 +3,7 @@ layout: post
 title: "What is this Craziness?"
 date: 2020-06-05
 excerpt_separator: <!--more-->
+comments: true
 ---
 
 ### The Hell That is 2020 Thus Far

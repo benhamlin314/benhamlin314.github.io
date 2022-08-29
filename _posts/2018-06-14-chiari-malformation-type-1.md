@@ -3,6 +3,7 @@ layout: post
 title: "Type 1 Chiari Malformation"
 date: 2018-06-14
 excerpt_separator: <!--more-->
+comments: true
 ---
 
 "What the heck is going on?" This was the thought that went through my head as I began to lose feeling in my left side. It felt like I was having a stroke. Numbness and tingling throughout the left side of my body resulting in difficulty walking and talking. It all started in December of 2017 while I was studying for my finals in the Fall of my Junior year. Fast forward a little to being diagnosed with a **Type 1 Chiari Malformation**.
