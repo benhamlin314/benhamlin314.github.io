@@ -6,7 +6,7 @@ title: Blog
 {% for post in paginator.posts %}
   <h1>{{ post.title }}</h1>
   <p class="author">
-    <span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
+    <span class="date">{{ post.date | date: '%B %d, %Y' }} {% if page.comments %} <a href="{{content.absolute_url}}#disqus_thread">Post a comment</a>{% endif %}</span>
   </p>
   <div class="content">
     {{ post.excerpt }}
